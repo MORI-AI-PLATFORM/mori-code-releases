@@ -1,0 +1,11 @@
+Mori Code
+Copyright (c) 2026 MORI
+
+Based on OpenCode (MIT).
+  Upstream: https://github.com/anomalyco/opencode (formerly sst/opencode)
+  Base release: v1.19.3
+  Copyright (c) 2025 opencode
+  License: MIT, see LICENSE in this repository.
+
+Mori Code changes the branding, the default model provider (MORI), the sign-in flow and a
+number of defaults. All upstream copyright and license notices are preserved.
