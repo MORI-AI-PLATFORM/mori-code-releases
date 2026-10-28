@@ -7,9 +7,10 @@ Mozg — ИИ-агент для работы с кодом в терминале
 Mozg AI: вход — через аккаунт Mozg AI, расход идёт из пакета подписки.
 
 **Раньше назывался Mori Code** (до версии 0.2.0, команда `mori`). Команда теперь — `mozg`, а `mori`
-установщик оставляет синонимом: старые скрипты работают, вход и история сессий сохраняются.
+установщик оставляет синонимом: старые скрипты работают, настройки и история сессий сохраняются.
+Сервис переехал на **mozg.world**, поэтому после обновления один раз войдите заново: `mozg login`.
 
-Подробнее и тарифы: **https://moriarti.ai/code**
+Подробнее и тарифы: **https://mozg.world/code**
 
 Этот репозиторий — только для загрузок: здесь лежат готовые сборки и контрольные суммы.
 Исходного кода здесь нет.
@@ -25,14 +26,18 @@ Mozg AI: вход — через аккаунт Mozg AI, расход идёт �
 macOS и Linux:
 
 ```bash
-curl -fsSL https://moriarti.ai/code/install.sh | bash
+curl -fsSL https://mozg.world/code/install.sh | bash
 ```
 
 Windows (PowerShell):
 
 ```powershell
-irm https://moriarti.ai/code/install.ps1 | iex
+irm https://mozg.world/code/install.ps1 | iex
 ```
+
+Если `mozg.world` у вас ещё не открывается — те же установщики из этого репозитория:
+`curl -fsSL https://github.com/MORI-AI-PLATFORM/mori-code-releases/releases/latest/download/install.sh | bash`,
+`irm https://github.com/MORI-AI-PLATFORM/mori-code-releases/releases/latest/download/install.ps1 | iex`.
 
 Установщик сам выбирает сборку под систему, сверяет контрольную сумму (SHA-256) и кладёт `mozg`
 (и синоним `mori`) в `~/.local/bin` (Windows — `%LOCALAPPDATA%\mozg\bin`, папка добавляется в PATH;
@@ -102,9 +107,10 @@ Mozg is an AI coding agent for your terminal. It reads and edits project files, 
 subscription: you sign in with your Mozg AI account and usage comes out of your subscription package.
 
 **Formerly Mori Code** (before 0.2.0, command `mori`). The command is now `mozg`; the installer keeps
-`mori` as an alias, so existing scripts keep working and your sign-in and sessions are preserved.
+`mori` as an alias, so existing scripts keep working and your settings and sessions are preserved.
+The service moved to **mozg.world**, so sign in once more after updating: `mozg login`.
 
-Details and plans: **https://moriarti.ai/code**
+Details and plans: **https://mozg.world/code**
 
 This repository only hosts downloads (release builds and checksums). There is no source code here.
 
@@ -119,14 +125,18 @@ This repository only hosts downloads (release builds and checksums). There is no
 macOS and Linux:
 
 ```bash
-curl -fsSL https://moriarti.ai/code/install.sh | bash
+curl -fsSL https://mozg.world/code/install.sh | bash
 ```
 
 Windows (PowerShell):
 
 ```powershell
-irm https://moriarti.ai/code/install.ps1 | iex
+irm https://mozg.world/code/install.ps1 | iex
 ```
+
+If `mozg.world` does not open for you yet, use the same installers from this repository:
+`curl -fsSL https://github.com/MORI-AI-PLATFORM/mori-code-releases/releases/latest/download/install.sh | bash`,
+`irm https://github.com/MORI-AI-PLATFORM/mori-code-releases/releases/latest/download/install.ps1 | iex`.
 
 The installer picks the build for your system, verifies its SHA-256 checksum and puts `mozg` (plus
 the `mori` alias) into `~/.local/bin` (Windows: `%LOCALAPPDATA%\mozg\bin`, added to your user PATH;
